@@ -6,6 +6,7 @@ This project is a website that contains a responsive and accessible subscription
 - Reponsive Design
 - Email validation
 - Animations
+- Ready to connect to an API or database to store email subscriptions in the future
 
 ## Technologies Used
 - HTML5

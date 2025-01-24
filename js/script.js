@@ -20,7 +20,7 @@ function hideModal() {
     setTimeout(() => {
         modalOpen.style.display = "none";
         overlay.style.display = "none";
-    }, 1000); // Espera a que termine la animación antes de ocultar el modal
+    }, 500);
 }
 
 // Validate email
