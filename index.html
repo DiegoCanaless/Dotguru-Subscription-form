@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DotGuru - Subscribe to Our Newsletter</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Subscribe to DotGuru's newsletter to stay updated with the latest news and updates.">
+    <meta name="keywords" content="DotGuru, newsletter, subscription, updates">
+    <meta property="og:title" content="DotGuru Team Subscription Form">
+    <meta property="og:description" content="DotGuru Team Subscription Form">
+    
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+
+        <!-- Form -->
+        <section class="containerSubscription" id="container">
+            <img src="./assets/iconTelegram.png" alt="Telegram Icon" class="animate__animated animate__backInLeft">
+            <h1 class="animate__animated animate__backInLeft">SUBSCRIBE</h1>
+            <form action="" id="form" class="animate__animated animate__backInLeft">
+                <label for="email" class="hidden">Email</label>
+                <input type="email" placeholder="Enter your email" id="email" aria-label="Enter your email">
+                <button type="submit">SUBSCRIBE</button>
+                <p class="warning" id="error" role="alert"></p>
+            </form>
+        </section>
+
+        <!-- Modal-->
+        <div id="overlay" class="overlay"></div>
+        <div class="modal" id="modalOpen">
+            <div class="modalContent">
+                <h2>Thanks for subscribing!</h2>
+                <p>You have successfully subscribed</p>
+                <button id="close">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;2025 Subscribe Form. All Rights Reserved.<span class="jumpLine"><br></span>Design by EquipoDotGuru</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
